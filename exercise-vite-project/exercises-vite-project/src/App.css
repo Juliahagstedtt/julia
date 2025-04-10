@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* 
+body {
+  background-color: rgb(24, 24, 44);
+  height: 500px;
+  width: 600px;
+}
+
+h1 {
+  color: rgb(227, 123, 53);
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: rgb(76, 76, 76);
+  background-color: antiquewhite;
+}
+
+.box-section {
+  background-color: rgb(255, 244, 196);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border: 2px solid grey;
+}
+
+.rubrik {
+  background-color: rgb(113, 158, 247);
+  margin-bottom: 40px;
+  width: 100px;
+} */
+
+
+
+h1, h2, h3 { margin: 0; }
+header {
+	background-color: var(--color1);
+	padding: 1rem 2rem;
+}
+main {
+	background-color: var(--color2);
+	flex-grow: 1;
+	padding: 1rem 2rem;
+}
+.hitta-hatt {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+
+.add-hat, .hat-list {
+	border: 1px solid var(--color3);
+	border-radius: 4px;
+	box-shadow: 0em 0em 0.3em var(--color3);
+	padding: 0.5em;
+	margin: 0.4em 0;
+}
+
+.hat-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 0.7em;
+}
+.hat-card {
+	width: 10em;
+	text-align: center;
+	box-shadow: 0 0 0.2em 0.1em var(--color3);
+	
+	img {
+		max-width: 95%;
+	}
+}
+
+.add-hat {
+	max-width: 20em;
+	
+	label { font-weight: bold; }
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+}
+

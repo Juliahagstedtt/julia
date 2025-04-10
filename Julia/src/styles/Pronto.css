@@ -1,0 +1,27 @@
+.pronto {
+    border: 5px solid rgb(146, 10, 237);
+    background-color: rgb(208, 202, 234);
+    width: 500px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+  
+  .counter {
+    border: 2px solid rgb(42, 42, 42);
+  }
+
+  .pronto-button {
+    background-color: rgb(237, 237, 237);
+    font-size: 15px;
+  }
+
+  .pronto-box {
+    border: 1px solid rgb(78, 78, 78);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 450px;
+    justify-content: space-between;
+    padding: 10px;
+  }
